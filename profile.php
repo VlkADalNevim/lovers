@@ -14,7 +14,7 @@ $stmt->close();
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Profile Page</title>
+		<title>Profile</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 		<script src="https://kit.fontawesome.com/9526c175c2.js" crossorigin="anonymous"></script>
@@ -64,10 +64,6 @@ $stmt->close();
 					<tr>
 						<td>Username:</td>
 						<td><?=$_SESSION['name']?></td>
-					</tr>
-					<tr>
-						<td>Password:</td>
-						<td><?=$password?></td>
 					</tr>
 						<form method="post" action="#">
 							<div class="form-group">

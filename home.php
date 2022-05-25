@@ -42,7 +42,7 @@
 
 	<?php
 		$id=$_SESSION['id'];
-		$query=mysqli_query($con,"SELECT * FROM accounts")or die(mysqli_error());
+		$query=mysqli_query($con,"SELECT * FROM accounts where not id=$id")or die(mysqli_error());
 	?>
 
 	<body class="loggedin">
@@ -58,6 +58,8 @@
 		</nav>
 		<div class="content">
 			<h2>Home:</h2>
+
+			<a class="addlover" href="newlover.php">Add Lover <i class="fa-solid fa-plus"></i></a>
 
 			<table>
 				<thead>

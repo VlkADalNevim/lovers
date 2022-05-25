@@ -105,6 +105,19 @@ body.loggedin {
 	width: 1000px;
 	margin: 0 auto;
 }
+.addlover {
+	float: right;
+    padding: 2px 8px 0 0;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+.addlover:hover {
+    color: #1d71e7;
+}
 .content h2 {
 	margin: 0;
 	padding: 15px 0;
@@ -223,4 +236,17 @@ body.loggedin {
 .meet_btn:hover {
     color: #1d71e7;
 
+}
+
+/*------------------------------------------------------AddLover------------------------------------------------------------------*/
+
+
+.addloverform {
+    width:100%;
+    height: 30px;
+    border-bottom: 1px solid #5a84d8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
 }

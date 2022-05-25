@@ -6,7 +6,7 @@ require_once 'loggedincheck.php';
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Home Page</title>
+		<title>Meetings</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 		<script src="https://kit.fontawesome.com/9526c175c2.js" crossorigin="anonymous"></script>
@@ -17,20 +17,16 @@ require_once 'loggedincheck.php';
                 border-collapse: collapse;
 			}
 			tr {
-
                 border-top: 1px solid #e0e0e3;
                 border-bottom: 1px solid #e0e0e3;
-                
 			}
             th {
 				text-align: center;
                 padding: 20px;
-                
 			}
             td {
 				text-align: center;
                 padding: 20px;
-                
 			}
             tr:hover {
 				background: #f0f0f0;
